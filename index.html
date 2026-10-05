@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="ja">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#17664f"><title>たまがわクエスト | 多摩川小学校クイズ</title><link rel="stylesheet" href="style.css"><script src="questions.js" defer></script><script src="app.js" defer></script></head>
+<body>
+ <header class="topbar"><a class="brand" href="#" id="brand" aria-label="ホームへ"><span class="brand-mark">た</span><span>たまがわクエスト<small>大田区立多摩川小学校</small></span></a><div class="settings"><button id="ruby-toggle" class="tool" aria-pressed="true">あ <span>ふりがな ON</span></button><button id="sound-toggle" class="tool" aria-pressed="false">♫ <span>音 OFF</span></button></div></header>
+ <main id="app"></main>
+ <footer><span>学校を知ると、毎日がちょっと楽しくなる。</span><button id="sources-button">おとなの方へ・出典</button><span class="footer-note">非公式の学習ゲーム</span></footer>
+ <dialog id="info-dialog" aria-labelledby="info-title"><div class="dialog-top"><h2 id="info-title">おとなの方へ</h2><button class="close-button" aria-label="閉じる">×</button></div><p>大田区立多摩川小学校をテーマにした非公式のクイズです。公式サイトを参考にした学校の問題40問と、教育目標をもとにした生活問題10問、合計50問を収録しています。</p><p>通常の冒険では全50問から重複なしで10問をランダムに選び、選択肢の順番も毎回変わります。時間制限はありません。記録はこの端末のブラウザ内に保存され、名前の入力や外部への送信はありません。</p><h3>参照した公式情報</h3><div id="source-list"></div><p class="small">確認日：2026年10月5日。読み上げは端末の対応状況で使えない場合があります。キャラクターの公式画像は使用せず、風景はゲーム用のオリジナルイラストです。</p><button id="clear-data" class="subtle">この端末のゲーム記録を消す</button><p id="clear-message" role="status"></p></dialog>
+ <dialog id="leave-dialog" aria-labelledby="leave-title"><div class="dialog-top"><h2 id="leave-title">冒険をおわる？</h2></div><p>今の冒険の答えは保存されないよ。ホームにもどる？</p><div class="dialog-actions"><button id="keep-playing" class="secondary">つづける</button><button id="confirm-leave" class="primary">ホームにもどる</button></div></dialog>
+ <div id="celebration" aria-hidden="true"></div>
+</body></html>
